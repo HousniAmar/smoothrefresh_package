@@ -23,4 +23,4 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  ssnapchat_refresh: ^1.0.1
+  snapchat_refresh: ^1.0.1

@@ -495,7 +495,7 @@ class SnapchatRefreshState extends State<SnapchatRefresh>
                 color: widget.color,
                 child: Center(
                   child: Lottie.asset(
-                    widget.lottiePath ?? "assets/default_animation.svg",
+                    widget.lottiePath ?? "assets/default_animation.json",
                     width: 200,
                     height: 200,
                   ),
