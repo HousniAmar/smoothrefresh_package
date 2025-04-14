@@ -38,8 +38,8 @@ enum _LiquidPullToRefreshMode {
   canceled, // Animating the indicator's fade-out after not arming.
 }
 
-class SmoothRefresh extends StatefulWidget {
-  const SmoothRefresh({
+class SnapchatRefresh extends StatefulWidget {
+  const SnapchatRefresh({
     super.key,
     this.animSpeedFactor = 1.0,
     required this.child,
@@ -100,11 +100,11 @@ class SmoothRefresh extends StatefulWidget {
   /// [ThemeData.canvasColor] by default.
 
   @override
-  SmoothRefreshState createState() => SmoothRefreshState();
+  SnapchatRefreshState createState() => SnapchatRefreshState();
 }
 
-class SmoothRefreshState extends State<SmoothRefresh>
-    with TickerProviderStateMixin<SmoothRefresh> {
+class SnapchatRefreshState extends State<SnapchatRefresh>
+    with TickerProviderStateMixin<SnapchatRefresh> {
   late AnimationController _springController;
   late Animation<double> _springAnimation;
 

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:smooth_refresh/smoothrefresh_component.dart';
+import 'package:snapchat_refresh/snapchatrefresh_component.dart';
 
 /// Example application demonstrating the dropdown_component package.
 class MyApp extends StatelessWidget {
@@ -26,7 +26,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text('Smooth Refresh Example')),
-      body: SmoothRefresh(
+      body: SnapchatRefresh(
         onRefresh: () async {
           await Future.delayed(Duration(seconds: 4));
         },

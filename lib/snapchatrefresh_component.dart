@@ -5,4 +5,4 @@
 /// - [NestedDropdown]: For simple string-based dropdown selections
 library smooth_refresh;
 
-export 'src/smooth_refresh.dart';
+export 'src/snapchat_refresh.dart';

@@ -1,4 +1,4 @@
-# 🌀 smooth_refresh
+# 🌀 snapchat_refresh
 
 ## Demo
 ![Demo](https://upload.wikimedia.org/wikipedia/commons/0/00/Flag_of_Palestine.svg)
@@ -23,4 +23,4 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  smooth_refresh: ^1.0.0
+  ssnapchat_refresh: ^1.0.1

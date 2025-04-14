@@ -200,13 +200,13 @@
       "languageVersion": "3.4"
     },
     {
-      "name": "smooth_refresh",
+      "name": "snapchat_refresh",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     }
   ],
-  "generated": "2025-04-14T15:31:42.082844Z",
+  "generated": "2025-04-14T15:42:08.731685Z",
   "generator": "pub",
   "generatorVersion": "3.5.4",
   "flutterRoot": "file:///C:/flutter",
