@@ -44,7 +44,7 @@ class SnapchatRefresh extends StatefulWidget {
     this.animSpeedFactor = 1.0,
     required this.child,
     required this.onRefresh,
-    this.lottiePath,
+    required this.lottiePath,
     this.color = Colors.blue,
     this.height,
     this.springAnimationDurationInMilliseconds = 800,

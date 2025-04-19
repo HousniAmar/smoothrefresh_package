@@ -27,6 +27,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(title: Text('Smooth Refresh Example')),
       body: SnapchatRefresh(
+        lottiePath: "assets/default_animation.json",
         onRefresh: () async {
           await Future.delayed(Duration(seconds: 4));
         },

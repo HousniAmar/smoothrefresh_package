@@ -2,7 +2,7 @@
 
 ## Demo
 ![Demo](https://upload.wikimedia.org/wikipedia/commons/0/00/Flag_of_Palestine.svg)
-![Demo](https://miro.medium.com/v2/resize:fit:640/format:webp/1*JaXOG2Nfn-RQEVmNZGqvKw.png)
+![Demo](https://miro.medium.com/v2/resize:fit:768/format:webp/1*-aD7j49kLYsXmghB6yoz6w.gif)
 
 A smooth and customizable pull-to-refresh widget for Flutter with **Lottie animations** support. Inspired by modern UI/UX patterns (like Snapchat's), this package lets you add delightful and highly customizable refresh experiences to your scroll views.
 
@@ -23,4 +23,4 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  snapchat_refresh: ^1.0.1
+  snapchat_refresh: ^1.0.4

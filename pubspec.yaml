@@ -1,6 +1,6 @@
 name: snapchat_refresh
 description: A smooth and customizable pull-to-refresh widget with Lottie animation
-version: 1.0.2
+version: 1.0.4
 homepage: https://github.com/yourusername/smooth_refresh
 
 environment:
